@@ -105,6 +105,7 @@ const Home = () => {
               initial="hidden"
               animate="visible"
               variant="body1"
+              color="white"
             >
               Hi there, my name is
             </Typography>
