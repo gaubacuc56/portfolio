@@ -67,7 +67,7 @@ const Exed = () => {
 		} else {
 			setShowIcon(false);
 		}
-	}, [window.innerWidth]);
+	}, []);
 	// Change the stauts value
 	const handleClick = (e) => {
 		if (

@@ -1,7 +1,6 @@
 import { ReactComponent as Axios } from '../assets/icons/axios.svg';
 import { ReactComponent as ReactIcon } from '../assets/icons/react.svg';
 import { ReactComponent as CSS } from '../assets/icons/css3-alt.svg';
-import { ReactComponent as MUI } from '../assets/icons/MaterialUI.svg';
 import { ReactComponent as JavaScript } from '../assets/icons/square-js.svg';
 import { ReactComponent as HTML } from '../assets/icons/html5.svg';
 import { ReactComponent as Bootstrap } from '../assets/icons/bootstrap.svg';
