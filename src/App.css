@@ -1,0 +1,76 @@
+.red-text {
+  color: var(--primary-yellow);
+}
+
+.gray-text {
+  color: var(--gray-text);
+}
+
+.white-text {
+  color: var(--white-text);
+}
+.home.container {
+  padding: 0;
+}
+.container {
+  padding: 0 12rem 7.2rem;
+  /* height: 100vh; */
+}
+
+.black-container {
+  background-color: var(--black-background);
+}
+
+.second-black-container {
+  background-color: var(--second-black-background);
+}
+
+div.activeBox {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 154, 141, 0) 0%,
+    #f1bb46 89.06%,
+    #f3b32a 100%
+  );
+}
+
+.back-icon {
+  position: absolute;
+  right: -55%;
+  top: -45%;
+  z-index: -1;
+  transform: scale(0.3);
+  fill: var(--icons-colors);
+  opacity: 0.1;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 2rem 4rem;
+  }
+}
+
+@media (min-width: 1550px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1550px;
+    margin: 0px auto;
+  }
+  .container {
+    position: relative;
+  }
+  .container::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+    width: 99.3vw;
+    height: 100%;
+    background-color: inherit;
+  }
+}
