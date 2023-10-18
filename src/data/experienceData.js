@@ -35,7 +35,6 @@ export const exData = [
 		moreInfo: {
 			title:
 				'Projects I worked on: To-do list, Timer and Stopwatch, Youtube Clone, and System survey',
-			text: 'Offer Letter: <a style="color: #9149c4;" href="https://drive.google.com/file/d/1npXnQ4h0D30kRo5BeA83ge87fctsHtea/view" target="_blank" rel="noreferrer">Offer link</a>',
 		},
 	},
 ];

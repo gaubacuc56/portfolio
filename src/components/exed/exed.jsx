@@ -282,15 +282,6 @@ const Exed = () => {
                 __html: chosenElement.moreInfo.title,
               }}
             ></Typography>
-            <Typography
-              variant="overline"
-              sx={{
-                fontSize: { xs: "0.7rem", lg: "initial" },
-              }}
-              dangerouslySetInnerHTML={{
-                __html: chosenElement.moreInfo.text,
-              }}
-            ></Typography>
           </Stack>
         </Stack>
         {/* watch out */}
