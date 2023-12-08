@@ -1,0 +1,7 @@
+window.APP_CONFIG = {
+  AD: "https://gmi-api.du3.nois.vn",
+  ACI: "1d1fe5ab-6155-4b4f-b804-520f5f0ae63e",
+  ARU: "http://localhost:4200/auth/callback",
+  AS: ["api://1d1fe5ab-6155-4b4f-b804-520f5f0ae63e/api.scope"],
+  AIIK: ""
+};

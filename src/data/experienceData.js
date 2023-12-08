@@ -38,26 +38,3 @@ export const exData = [
 		},
 	},
 ];
-
-// {
-// 		id: 1,
-// 		name: 'ALX Africa',
-// 		type: 'Internship',
-// 		about: {
-// 			date: 'April 2023 - present',
-// 			info: 'ALX is a leading technology training provider, built to accelerate the careers of young Africans through the technology and professional skills that enable them to thrive in the digital economy.',
-// 			subTitle: 'What am I learning in this internship?',
-// 			list: [
-// 				'Problem-solve using coding and other forms of technology',
-// 				'Develop design systems and gather information on project limitations, capabilities, performance requirements, and interfaces',
-// 				'Model a system or application to help developers write the code they needed to complete their tasks',
-// 				'Calculate, recommend, and plan computer specifications, layouts, and peripheral equipment modifications through analysis and recommendation',
-// 				'Analyse system capabilities and requirements by storing, retrieving, and manipulating data',
-// 				'Key professional competencies such as project management, critical thinking, creative problem solving, interview techniques, communication, and collaboration skills',
-// 			],
-// 		},
-// 		moreInfo: {
-// 			title: 'Programming Languages learned in this internship: ',
-// 			text: 'C, Python, HTML, CSS, JavaScript, React.js, SQL, Typescript',
-// 		},
-// 	},
