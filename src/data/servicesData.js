@@ -19,9 +19,9 @@ export const data = [
 				/>
 			</svg>
 		),
-		name: 'Web Design',
+		name: 'UI/UX Development',
 		explain:
-			'I craft visually appealing and user-friendly websites, create unique and captivating designs tailored to your brand, and transforming ideas into stunning digital experiences.',
+			'Creating interactive and responsive web interfaces, implement cutting-edge technologies to enhance user experience, and write clean and efficient code for seamless functionality.',
 	},
 	{
 		id: 2,
@@ -43,8 +43,8 @@ export const data = [
 				/>
 			</svg>
 		),
-		name: 'Frontend Development',
+		name: 'Web App Development',
 		explain:
-			'I build interactive and responsive web interfaces, implement cutting-edge technologies to enhance user experience, and write clean and efficient code for seamless functionality.',
+			'Developing, testing the overall architecture, features, web solutions for various industry organization. Identify and fix bugs to ensure the reliability and stability of the application.',
 	},
 ];

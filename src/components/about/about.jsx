@@ -83,7 +83,7 @@ const handVariants = {
 };
 const About = () => {
   return (
-    <Box className="about container">
+    <Box className="container">
       <Heading headerText="About me" id="about" />
       <Stack
         sx={{
@@ -94,7 +94,6 @@ const About = () => {
       >
         <Stack
           spacing={5}
-          justifyContent="space-between"
           sx={{
             width: { xs: "100%", lg: "60%" },
             alignItems: { xs: "center", sm: "flex-start" },
@@ -138,12 +137,6 @@ const About = () => {
               user-friendly web experiences. With a solid foundation in HTML,
               CSS, JavaScript and TypeScript. I enjoy bringing designs to life
               and building intuitive interfaces.
-            </p>
-            <p>
-              During my journey as a developer, I've gained experience in
-              working with modern frontend frameworks like React and have a good
-              understanding of responsive web design principles. I'm constantly
-              learning and exploring new technologies to enhance my skills.
             </p>
           </Typography>
           <motion.a

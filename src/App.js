@@ -3,7 +3,7 @@ import FullPage from './components/fullPage/fullPage';
 
 function App() {
 	return (
-		<div className="App" /* style={{overflowX: 'hidden'}} */>
+		<div className="App">
 			<FullPage />
 		</div>
 

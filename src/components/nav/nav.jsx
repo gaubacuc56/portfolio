@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import { styled } from "styled-components";
 import { motion } from "framer-motion";
 
@@ -27,7 +27,7 @@ const Sytledlinks = styled.ul`
 const SytledlinksItems = styled.a`
   color: var(--primary-yellow);
   transition: all 0.2s linear;
-
+  font-size: 1.3rem;
   &:hover {
     color: var(--white-text);
   }
@@ -101,19 +101,11 @@ const Nav = () => {
         direction="row"
         height="120px"
         sx={{
-          justifyContent: "space-between",
+          justifyContent: { xs: "flex-start", lg: "center" },
           padding: { xs: "1rem 2rem", md: "1rem 5rem" },
           alignItems: "center",
         }}
       >
-        <Typography
-          sx={{ cursor: "pointer" }}
-          color="#f5a901"
-          fontSize={40}
-          fontWeight={600}
-        >
-          NTT
-        </Typography>
         <MenuContainer onClick={handleMenuClick}>
           <Menu
             style={{
@@ -149,8 +141,8 @@ const Nav = () => {
             </SytledlinksItems>
           </li>
           <li>
-            <SytledlinksItems href="#exed" onClick={handleLinkClick}>
-              Experience & Education
+            <SytledlinksItems href="#projects" onClick={handleLinkClick}>
+              Projects
             </SytledlinksItems>
           </li>
           <li>

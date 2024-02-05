@@ -10,7 +10,7 @@ const Footer = () => {
     setYear(new Date().getFullYear());
   }, []);
   return (
-    <Box component="footer" id="contact" className="footer" textAlign="center">
+    <Box component="footer" className="footer" textAlign="center">
       <Typography fontSize={20} fontWeight={600} color="white" pb={0}>
         Find me on
       </Typography>

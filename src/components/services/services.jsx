@@ -16,7 +16,7 @@ const StyledStack = styled(Stack)`
 	}
 	@media (max-width: 768px) {
 		&& {
-			padding: 2rem 1rem;
+			padding: 2.5rem;
 			gap: 1.3rem;
 		}
 	}
@@ -38,15 +38,9 @@ const Services = () => {
 				justifyContent="space-between"
 				gap={10}>
 				{data.map((el) => {
-					let transform =
-						el.name === 'Web Design' ? 'translateX(-60%)' : 'translateX(60%)';
 					return (
 						<StyledStack
 							as={motion.div}
-							initial={{
-								transform: transform,
-								opacity: 0,
-							}}
 							whileInView={{ transform: 'translateX(0%)', opacity: 1 }}
 							transition={{
 								delay: 0.7,
@@ -59,7 +53,7 @@ const Services = () => {
 								variant="h4"
 								color="var(--white-text)"
 								fontSize="1.8rem"
-								marginBottom="0.5rem">
+								my="0.5rem">
 								{el.name}
 							</Typography>
 							<Typography
